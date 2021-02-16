@@ -247,7 +247,7 @@ void myGSMsetup()
   delay(1000);
   printSerialData();
 
-  myGSM.println(F("AT+CSTT=\"virgin-internet\""));
+  myGSM.println(F("AT+CSTT=\"internet\""));   // Set Access Point Name (APN)
   printSerialData();
   delay(1000);
 
