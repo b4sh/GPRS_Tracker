@@ -33,7 +33,7 @@ char comment[] = "Your comment here";
 
 /////////////////////////////////////////////////////////////// 
 
-SoftwareSerial myGSM(8, 9);   // SIM800L pin TX to Arduino pin 8, SIM800L pin RX to Arduino pin 9
+SoftwareSerial myGSM(10, 11);   // SIM800L pin TX to Arduino pin 8, SIM800L pin RX to Arduino pin 9
 SoftwareSerial myGPS(6, 7);   // GPS Neo6M pin TX to Arduino pin 6
 
 TinyGPSPlus gps;
